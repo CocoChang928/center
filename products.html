@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>友廷實業有限公司</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="./resource/css" rel="stylesheet" type="text/css">
+<link href="./resource/style.css" rel="stylesheet" type="text/css" media="all">
+<!--nav-->
+<script src="./resource/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="./resource/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="./resource/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<body>
+<div class="header_bg">
+  <div class="wrap">
+    <div class="header">
+      <div class="logo"> <a href="index.html"><img src="./resource/logo.png" alt=""></a> </div>
+      <div class="cssmenu">
+        <ul>
+          <li class="active"><a href="index.html">公司簡介</a></li>
+          <li><a href="products.html">產品介紹</a></li>
+          <li class="last"><a href="contact.html">聯絡我們</a></li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="top-nav">
+        <nav class="clearfix">
+          <ul>
+            <li><a href="index.html">公司簡介</a></li>
+            <li><a href="products.html">產品介紹</a></li>
+            <li class="last"><a href="contact.html">聯絡我們</a></li>
+          </ul>
+          <a href="index.html#" id="pull">Menu</a> </nav>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!-- start mian -->
+<div class="main_bg">
+<div class="wrap">
+<div class="main">
+	<div class="ser-main">
+		<h2 class="style">服務項目.產品介紹</h2>
+		<div class="ser-para">
+			<p class="para">1. 產品架構.零件配置.電路設計.打樣生產。</p>
+		  <p class="para">&nbsp;</p>
+		  <p class="para">2. OEM.ODM.從開發.零件確認.採購.加工.一條龍服務。</p>
+		  <p class="para">&nbsp;</p>
+		  <p class="para">3. 與大陸多家現貨商合作.代查停產.短缺料.現貨報價。</p>
+		  <p class="para">&nbsp;</p>
+		  <p class="para">4. 整合多家經銷.策略合作.能幫客戶一次性購足.避免繁瑣採購流程.及降低採購成本。</p>
+		  <p class="para">&nbsp;</p>
+		  <p class="para">5. 建議廣泛性替代料件.以交期短.單價合理化為原則..讓客人免除MOQ的困擾.</p>
+		  <p class="para">&nbsp;</p>		  		  		  
+		</div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6305半成品照片</div>
+                <img src="./Products/1_6305_1.jpg" title="image-name">
+            </div>		
+        </div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6305半成品照片</div>
+                <img src="./Products/1_6305_2.jpg" title="image-name">
+            </div>		
+        </div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6303半成品照片</div>
+                <img src="./Products/2_6303_1.jpg" title="image-name">
+            </div>		
+        </div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6303半成品照片</div>
+                <img src="./Products/2_6303_2.jpg" title="image-name">
+            </div>		
+        </div>		
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6207半成品照片</div>
+                <img src="./Products/3_6207_1.jpg" title="image-name">
+            </div>		
+        </div>		
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6207半成品照片</div>
+                <img src="./Products/3_6207_2.jpg" title="image-name">
+            </div>		
+        </div>		
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6302半成品照片</div>
+                <img src="./Products/4_6302_1.jpg" title="image-name">
+            </div>		
+        </div>		
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>6302半成品照片</div>
+                <img src="./Products/4_6302_2.jpg" title="image-name">
+            </div>		
+        </div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>機種名稱：825000</div>
+                <img src="./Products/5_825000_1.jpg" title="image-name">
+            </div>		
+        </div>		
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>機種名稱：825000</div>
+                <img src="./Products/5_825000_2.jpg" title="image-name">
+            </div>		
+        </div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>機種名稱：828000</div>
+                <img src="./Products/6_828000_1.jpg" title="image-name">
+            </div>		
+        </div>		
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>機種名稱：828000</div>
+                <img src="./Products/6_828000_2.jpg" title="image-name">
+            </div>		
+        </div>
+		<div class="ser-grid-list img_style">
+            <div class="gallery">
+				<div style='font-weight:bold;'>機種名稱：9010200</div>
+                <img src="./Products/7_9010200.jpg" title="image-name">
+            </div>		
+        </div>		
+								
+		<div class="clear"></div>
+	  </div>
+	</div>
+</div>
+</div>
+<!-- start footer  -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+	  <div class="span_of_4">
+	    <div class="copy">
+	      <p class="w3-link">Copyright ® 2022. All Rights Reserved. </p>
+        </div>
+	  </div>
+	</div>
+</div>
+</div>
+
+<div id="gtx-trans" style="position: absolute; left: 1272px; top: 313.8px;"><div class="gtx-trans-icon"></div></div></body></html>

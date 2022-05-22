@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>友廷實業有限公司</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="./resource/css" rel="stylesheet" type="text/css">
+<link href="./resource/style.css" rel="stylesheet" type="text/css" media="all">
+<!--nav-->
+<script src="./resource/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+
+<body>
+	<div class="header_bg">
+		<div class="wrap">
+		  <div class="header">
+			<div class="logo"> <a href="index.html"><img src="./resource/logo.png" alt=""></a> </div>
+			<div class="cssmenu">
+			  <ul>
+				<li class="active"><a href="index.html">公司簡介</a></li>
+				<li><a href="products.html">產品介紹</a></li>
+				<li class="last"><a href="contact.html">聯絡我們</a></li>
+				<div class="clear"></div>
+			  </ul>
+			</div>
+			<div class="top-nav">
+			  <nav class="clearfix">
+				<ul>
+				  <li><a href="index.html">公司簡介</a></li>
+				  <li><a href="products.html">產品介紹</a></li>
+				  <li class="last"><a href="contact.html">聯絡我們</a></li>
+				</ul>
+				<a href="index.html#" id="pull">Menu</a> </nav>
+			</div>
+			<div class="clear"></div>
+		  </div>
+		</div>
+	  </div>
+<!-- start mian -->
+<div class="main_bg">
+<div class="wrap">
+<div class="main">
+	 	 <div class="contact">				
+					<div class="contact_info">
+						<h2 class="style">聯絡我們</h2>
+			    	 		<div class="map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.727094732868!2d121.5079494146102!3d25.077237283952194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9343c218879%3A0x8b26e4458722a7ea!2zMTAz5Y-w5YyX5biC5aSn5ZCM5Y2A5pWm54WM6LevMjA56JmfNGY!5e0!3m2!1szh-TW!2stw!4v1653212859521!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					   		</div>
+      				</div>
+				  <div class="contact-form">
+			 	 <div class="content">
+		 	 	<h2 class="style">聯絡我們 Contact Us		 	 	</h2>
+		 	 	<p class="para">友廷實業有限公司 </p>
+<p class="para">Center century ind co.,ltd.		 	 	</p>
+<p class="para">電話：02-25852731		 	 	  </p>
+		 	 	<p class="para">傳真：02-5946536		 	 	  </p>
+		 	 	<p class="para">E-mail：venson@hoshengc.com.tw</p>
+		 	 	<p class="para">地址:103035台北市大同區敦煌路209號4f</p>
+		 	     </div>    
+	       </div>
+
+			  </div>
+		</div>
+</div>
+</div>
+<!-- start footer  -->
+<div class="footer_bg">
+<div class="wrap">
+  <div class="footer">
+    <div class="span_of_4">
+      <div class="copy">
+        <p class="w3-link">Copyright ® 2022. All Rights Reserved. </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body></html>
