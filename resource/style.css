@@ -57,7 +57,10 @@ body {
 }
 .logo{
 	float: left;
-	padding-top:8px;
+	/*padding-top:8px;*/
+}
+.logo>a>img{
+  width:360px;
 }
 .cssmenu {
 	float: right;
